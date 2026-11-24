@@ -1,0 +1,42 @@
+{
+  "schema": "mujoco-drawer-flow-b8-v1",
+  "layout": "fixed 8 lanes, terminal lanes masked",
+  "provenance": {
+    "base": "models/ira-base",
+    "adapter": "runs/drawer-002520-sft40k-grpo30-20261124/grpo/round-019/checkpoints/000760",
+    "base_sha256": "7f8056e0cebbd8767a93c0f51bf5e20751baad455cf4b9965c07efca2df0fdef",
+    "adapter_sha256": "886caac4ff1abca2855345e8ac2698baf5e37cc560e5861a546175c5fc8b6c03",
+    "policy_version": "a09b72f73d617fb7eded4d439be9cc1ea87903034bfd90ff383bbc08fa5e4013",
+    "base_size_bytes": 16573760064,
+    "strict_base_load": true,
+    "exact_adapter_values": true,
+    "renamed_base_keys": 0,
+    "device": "cuda",
+    "trainable_parameters": 1287168
+  },
+  "pipeline_id": "d301cb94e28130ea6e0f2c64db7094b86f1d5b8ee6bb5f329216c84f7876f21c",
+  "sampler": {
+    "num_steps": 10,
+    "noise_level": 0.5,
+    "action_dim": 6,
+    "action_chunk": 50,
+    "clip_low": 0.2,
+    "clip_high": 0.28
+  },
+  "groups": 90,
+  "steps": 40,
+  "save_every": 40,
+  "lr": 1e-06,
+  "streams": 3,
+  "groups_per_update": 4,
+  "scene_seed_offset": 199000,
+  "policy_seed_offset": 19900000,
+  "start_step": 760,
+  "validation_groups": 0,
+  "validation_manifest": "runs/drawer-002520-sft40k-grpo30-20261124/data/manifest.json",
+  "validation_manifest_sha256": "4fdfe4ac09e63f9f1c7d21215527c7ccf00abd8962426fb2b9bd172cfa258e8a",
+  "starting_optimizer_sha256": "1803982a32c6b4c411e384e33d0a88f1c1bf00e2f170ea397e59c209b8cb3c9a",
+  "task": "Open the drawer.",
+  "calibration_sha256": "5e88703a90b5520f424d9ff9d90303791552c773e08c47dd3fcf0042cbf9410b",
+  "environment_sha256": "3f98335711c1100d39eb2d234656fdf32de737b1b4d513768d1735f087165f7f"
+}

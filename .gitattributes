@@ -1,0 +1,3 @@
+* text=auto eol=lf
+vendor/rlinf-reference/LICENSE -text
+vendor/rlinf-reference/rlinf/** -text

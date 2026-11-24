@@ -1,0 +1,3424 @@
+{
+  "fps": 30,
+  "rgb_stride": 3,
+  "task": "Open the drawer.",
+  "cameras": [
+    "front",
+    "wrist"
+  ],
+  "joints": [
+    "shoulder_pan",
+    "shoulder_lift",
+    "elbow_flex",
+    "wrist_flex",
+    "wrist_roll",
+    "gripper"
+  ],
+  "episodes": [
+    {
+      "episode": 0,
+      "directory": "episode-000",
+      "seed": 125000,
+      "frames": 303,
+      "rgb_frames": 101,
+      "success": true,
+      "drawer_start_mm": 6.458599341801111,
+      "handle_start_m": [
+        0.22984504025541308,
+        -0.04868603512479565,
+        0.039
+      ],
+      "drawer_end_mm": 65.278872008845,
+      "handle_contact": true
+    },
+    {
+      "episode": 1,
+      "directory": "episode-001",
+      "seed": 125001,
+      "frames": 309,
+      "rgb_frames": 103,
+      "success": true,
+      "drawer_start_mm": 3.368596076920386,
+      "handle_start_m": [
+        0.23739987760111753,
+        -0.05170914694582614,
+        0.039
+      ],
+      "drawer_end_mm": 65.38938997414094,
+      "handle_contact": true
+    },
+    {
+      "episode": 2,
+      "directory": "episode-002",
+      "seed": 125002,
+      "frames": 309,
+      "rgb_frames": 103,
+      "success": true,
+      "drawer_start_mm": 2.9775454995955783,
+      "handle_start_m": [
+        0.22982430806298787,
+        -0.05090534859966364,
+        0.039
+      ],
+      "drawer_end_mm": 65.07621323547882,
+      "handle_contact": true
+    },
+    {
+      "episode": 3,
+      "directory": "episode-003",
+      "seed": 125003,
+      "frames": 299,
+      "rgb_frames": 100,
+      "success": true,
+      "drawer_start_mm": 6.820022837847054,
+      "handle_start_m": [
+        0.22448594346778555,
+        -0.045176106626819444,
+        0.039
+      ],
+      "drawer_end_mm": 65.36439428073257,
+      "handle_contact": true
+    },
+    {
+      "episode": 4,
+      "directory": "episode-004",
+      "seed": 125004,
+      "frames": 309,
+      "rgb_frames": 103,
+      "success": true,
+      "drawer_start_mm": 2.940267166356959,
+      "handle_start_m": [
+        0.24306162838674839,
+        -0.053851438549051875,
+        0.039
+      ],
+      "drawer_end_mm": 64.98194872380915,
+      "handle_contact": true
+    },
+    {
+      "episode": 5,
+      "directory": "episode-005",
+      "seed": 125005,
+      "frames": 319,
+      "rgb_frames": 107,
+      "success": true,
+      "drawer_start_mm": 1.0078094793461174,
+      "handle_start_m": [
+        0.23836382933933048,
+        -0.052211165637506704,
+        0.039
+      ],
+      "drawer_end_mm": 65.09629428510453,
+      "handle_contact": true
+    },
+    {
+      "episode": 6,
+      "directory": "episode-006",
+      "seed": 125006,
+      "frames": 308,
+      "rgb_frames": 103,
+      "success": true,
+      "drawer_start_mm": 3.5172584136454166,
+      "handle_start_m": [
+        0.22928141885161246,
+        -0.03996779396587914,
+        0.039
+      ],
+      "drawer_end_mm": 65.02850884242613,
+      "handle_contact": true
+    },
+    {
+      "episode": 7,
+      "directory": "episode-007",
+      "seed": 125007,
+      "frames": 329,
+      "rgb_frames": 110,
+      "success": true,
+      "drawer_start_mm": 0.1491480376998613,
+      "handle_start_m": [
+        0.23419870950844418,
+        -0.038892494074888984,
+        0.039
+      ],
+      "drawer_end_mm": 65.4404543239656,
+      "handle_contact": true
+    },
+    {
+      "episode": 8,
+      "directory": "episode-008",
+      "seed": 125008,
+      "frames": 299,
+      "rgb_frames": 100,
+      "success": true,
+      "drawer_start_mm": 6.928289570169364,
+      "handle_start_m": [
+        0.23361679057700951,
+        -0.040218609512024814,
+        0.039
+      ],
+      "drawer_end_mm": 65.42294419144308,
+      "handle_contact": true
+    },
+    {
+      "episode": 9,
+      "directory": "episode-009",
+      "seed": 125009,
+      "frames": 302,
+      "rgb_frames": 101,
+      "success": true,
+      "drawer_start_mm": 6.873779583275447,
+      "handle_start_m": [
+        0.2235733340205644,
+        -0.051289305360850135,
+        0.039
+      ],
+      "drawer_end_mm": 65.26726179916196,
+      "handle_contact": true
+    },
+    {
+      "episode": 10,
+      "directory": "episode-010",
+      "seed": 125010,
+      "frames": 308,
+      "rgb_frames": 103,
+      "success": true,
+      "drawer_start_mm": 3.7324293702466083,
+      "handle_start_m": [
+        0.2259260962889767,
+        -0.05161005795753013,
+        0.039
+      ],
+      "drawer_end_mm": 65.34667168116907,
+      "handle_contact": true
+    },
+    {
+      "episode": 11,
+      "directory": "episode-011",
+      "seed": 125011,
+      "frames": 330,
+      "rgb_frames": 110,
+      "success": true,
+      "drawer_start_mm": 0.17980403103819675,
+      "handle_start_m": [
+        0.24003303975259532,
+        -0.044256177627593624,
+        0.039
+      ],
+      "drawer_end_mm": 65.29651939500665,
+      "handle_contact": true
+    },
+    {
+      "episode": 12,
+      "directory": "episode-012",
+      "seed": 125012,
+      "frames": 306,
+      "rgb_frames": 102,
+      "success": true,
+      "drawer_start_mm": 4.741788364410744,
+      "handle_start_m": [
+        0.2397917124808266,
+        -0.05019895636926122,
+        0.039
+      ],
+      "drawer_end_mm": 65.10621383513933,
+      "handle_contact": true
+    },
+    {
+      "episode": 13,
+      "directory": "episode-013",
+      "seed": 125013,
+      "frames": 299,
+      "rgb_frames": 100,
+      "success": true,
+      "drawer_start_mm": 7.677998294267486,
+      "handle_start_m": [
+        0.2338488818571584,
+        -0.048100243754620055,
+        0.039
+      ],
+      "drawer_end_mm": 65.15402954305041,
+      "handle_contact": true
+    },
+    {
+      "episode": 14,
+      "directory": "episode-014",
+      "seed": 125014,
+      "frames": 304,
+      "rgb_frames": 102,
+      "success": true,
+      "drawer_start_mm": 5.73785871792009,
+      "handle_start_m": [
+        0.23989268751987997,
+        -0.04734840108148401,
+        0.039
+      ],
+      "drawer_end_mm": 65.07995389859624,
+      "handle_contact": true
+    },
+    {
+      "episode": 15,
+      "directory": "episode-015",
+      "seed": 125015,
+      "frames": 309,
+      "rgb_frames": 103,
+      "success": true,
+      "drawer_start_mm": 3.167739486790074,
+      "handle_start_m": [
+        0.23618787902973126,
+        -0.04478117671609751,
+        0.039
+      ],
+      "drawer_end_mm": 65.11444062817998,
+      "handle_contact": true
+    },
+    {
+      "episode": 16,
+      "directory": "episode-016",
+      "seed": 125016,
+      "frames": 308,
+      "rgb_frames": 103,
+      "success": true,
+      "drawer_start_mm": 3.8673322901812464,
+      "handle_start_m": [
+        0.23903944075917966,
+        -0.052163879404114016,
+        0.039
+      ],
+      "drawer_end_mm": 65.33441802758213,
+      "handle_contact": true
+    },
+    {
+      "episode": 17,
+      "directory": "episode-017",
+      "seed": 125017,
+      "frames": 318,
+      "rgb_frames": 106,
+      "success": true,
+      "drawer_start_mm": 2.078758930994633,
+      "handle_start_m": [
+        0.2359916984123554,
+        -0.04166144842938822,
+        0.039
+      ],
+      "drawer_end_mm": 65.31664390642224,
+      "handle_contact": true
+    },
+    {
+      "episode": 18,
+      "directory": "episode-018",
+      "seed": 125018,
+      "frames": 303,
+      "rgb_frames": 101,
+      "success": true,
+      "drawer_start_mm": 6.4054776452822315,
+      "handle_start_m": [
+        0.2355958567922497,
+        -0.04309586011019315,
+        0.039
+      ],
+      "drawer_end_mm": 65.09671569179078,
+      "handle_contact": true
+    },
+    {
+      "episode": 19,
+      "directory": "episode-019",
+      "seed": 125019,
+      "frames": 329,
+      "rgb_frames": 110,
+      "success": true,
+      "drawer_start_mm": 0.5540428751161359,
+      "handle_start_m": [
+        0.24425389389425806,
+        -0.03981882279724141,
+        0.039
+      ],
+      "drawer_end_mm": 65.1196728709461,
+      "handle_contact": true
+    },
+    {
+      "episode": 20,
+      "directory": "episode-020",
+      "seed": 125020,
+      "frames": 300,
+      "rgb_frames": 100,
+      "success": true,
+      "drawer_start_mm": 5.416542814135905,
+      "handle_start_m": [
+        0.23964986147810624,
+        -0.04902428690902349,
+        0.039
+      ],
+      "drawer_end_mm": 64.5718078323158,
+      "handle_contact": true
+    },
+    {
+      "episode": 21,
+      "directory": "episode-021",
+      "seed": 125021,
+      "frames": 311,
+      "rgb_frames": 104,
+      "success": true,
+      "drawer_start_mm": 1.9956998318051287,
+      "handle_start_m": [
+        0.23657140762119655,
+        -0.052758814582315294,
+        0.039
+      ],
+      "drawer_end_mm": 65.1580354845691,
+      "handle_contact": true
+    },
+    {
+      "episode": 22,
+      "directory": "episode-022",
+      "seed": 125022,
+      "frames": 301,
+      "rgb_frames": 101,
+      "success": true,
+      "drawer_start_mm": 4.7076939356516405,
+      "handle_start_m": [
+        0.22990930514728114,
+        -0.0444121716752627,
+        0.039
+      ],
+      "drawer_end_mm": 65.15360128626426,
+      "handle_contact": true
+    },
+    {
+      "episode": 23,
+      "directory": "episode-023",
+      "seed": 125023,
+      "frames": 312,
+      "rgb_frames": 104,
+      "success": true,
+      "drawer_start_mm": 1.6907658215230486,
+      "handle_start_m": [
+        0.23509134083308741,
+        -0.0532237471779766,
+        0.039
+      ],
+      "drawer_end_mm": 65.40837762684636,
+      "handle_contact": true
+    },
+    {
+      "episode": 24,
+      "directory": "episode-024",
+      "seed": 125024,
+      "frames": 307,
+      "rgb_frames": 103,
+      "success": true,
+      "drawer_start_mm": 4.495080330031433,
+      "handle_start_m": [
+        0.23769280805873155,
+        -0.04070369795361502,
+        0.039
+      ],
+      "drawer_end_mm": 65.29979177220925,
+      "handle_contact": true
+    },
+    {
+      "episode": 25,
+      "directory": "episode-025",
+      "seed": 125025,
+      "frames": 308,
+      "rgb_frames": 103,
+      "success": true,
+      "drawer_start_mm": 3.8322293220035792,
+      "handle_start_m": [
+        0.23729916064481354,
+        -0.053229878459164603,
+        0.039
+      ],
+      "drawer_end_mm": 65.32676633910528,
+      "handle_contact": true
+    },
+    {
+      "episode": 26,
+      "directory": "episode-026",
+      "seed": 125026,
+      "frames": 329,
+      "rgb_frames": 110,
+      "success": true,
+      "drawer_start_mm": 0.4473628231841804,
+      "handle_start_m": [
+        0.23086607445984936,
+        -0.0387244691079353,
+        0.039
+      ],
+      "drawer_end_mm": 65.50298802046419,
+      "handle_contact": true
+    },
+    {
+      "episode": 27,
+      "directory": "episode-027",
+      "seed": 125027,
+      "frames": 302,
+      "rgb_frames": 101,
+      "success": true,
+      "drawer_start_mm": 6.542507509992883,
+      "handle_start_m": [
+        0.23523545155987374,
+        -0.05188036544895187,
+        0.039
+      ],
+      "drawer_end_mm": 65.12027718428374,
+      "handle_contact": true
+    },
+    {
+      "episode": 28,
+      "directory": "episode-028",
+      "seed": 125028,
+      "frames": 313,
+      "rgb_frames": 105,
+      "success": true,
+      "drawer_start_mm": 1.1946954681758513,
+      "handle_start_m": [
+        0.2324104187616819,
+        -0.039885955843382774,
+        0.039
+      ],
+      "drawer_end_mm": 65.23821387558414,
+      "handle_contact": true
+    },
+    {
+      "episode": 29,
+      "directory": "episode-029",
+      "seed": 125029,
+      "frames": 299,
+      "rgb_frames": 100,
+      "success": true,
+      "drawer_start_mm": 7.967848201926436,
+      "handle_start_m": [
+        0.22327010778008433,
+        -0.04821588761543423,
+        0.039
+      ],
+      "drawer_end_mm": 65.23303241361637,
+      "handle_contact": true
+    },
+    {
+      "episode": 30,
+      "directory": "episode-030",
+      "seed": 125030,
+      "frames": 311,
+      "rgb_frames": 104,
+      "success": true,
+      "drawer_start_mm": 2.267851978696016,
+      "handle_start_m": [
+        0.2414419351695038,
+        -0.048150238466698726,
+        0.039
+      ],
+      "drawer_end_mm": 65.29216393090455,
+      "handle_contact": true
+    },
+    {
+      "episode": 31,
+      "directory": "episode-031",
+      "seed": 125031,
+      "frames": 307,
+      "rgb_frames": 103,
+      "success": true,
+      "drawer_start_mm": 4.342762534406674,
+      "handle_start_m": [
+        0.23742044229273085,
+        -0.05020926850406887,
+        0.039
+      ],
+      "drawer_end_mm": 65.25143958186737,
+      "handle_contact": true
+    },
+    {
+      "episode": 32,
+      "directory": "episode-032",
+      "seed": 125032,
+      "frames": 300,
+      "rgb_frames": 100,
+      "success": true,
+      "drawer_start_mm": 6.685263880080816,
+      "handle_start_m": [
+        0.2373284965867255,
+        -0.05203998104037554,
+        0.039
+      ],
+      "drawer_end_mm": 65.33702167910548,
+      "handle_contact": true
+    },
+    {
+      "episode": 33,
+      "directory": "episode-033",
+      "seed": 125033,
+      "frames": 309,
+      "rgb_frames": 103,
+      "success": true,
+      "drawer_start_mm": 2.9870047340421895,
+      "handle_start_m": [
+        0.2344964085509959,
+        -0.042284632562756816,
+        0.039
+      ],
+      "drawer_end_mm": 64.925285102564,
+      "handle_contact": true
+    },
+    {
+      "episode": 34,
+      "directory": "episode-034",
+      "seed": 125034,
+      "frames": 303,
+      "rgb_frames": 101,
+      "success": true,
+      "drawer_start_mm": 5.953746391242548,
+      "handle_start_m": [
+        0.22964459226935768,
+        -0.05011955938615037,
+        0.039
+      ],
+      "drawer_end_mm": 65.1048268574241,
+      "handle_contact": true
+    },
+    {
+      "episode": 35,
+      "directory": "episode-035",
+      "seed": 125035,
+      "frames": 305,
+      "rgb_frames": 102,
+      "success": true,
+      "drawer_start_mm": 5.6148894914285155,
+      "handle_start_m": [
+        0.23157544893317622,
+        -0.03791214984998207,
+        0.039
+      ],
+      "drawer_end_mm": 65.41755114134277,
+      "handle_contact": true
+    },
+    {
+      "episode": 36,
+      "directory": "episode-036",
+      "seed": 125036,
+      "frames": 313,
+      "rgb_frames": 105,
+      "success": true,
+      "drawer_start_mm": 1.1745782671639002,
+      "handle_start_m": [
+        0.22917344683701468,
+        -0.04653060664528557,
+        0.039
+      ],
+      "drawer_end_mm": 65.39395149200648,
+      "handle_contact": true
+    },
+    {
+      "episode": 37,
+      "directory": "episode-037",
+      "seed": 125037,
+      "frames": 308,
+      "rgb_frames": 103,
+      "success": true,
+      "drawer_start_mm": 3.4278401176459203,
+      "handle_start_m": [
+        0.22728296258000863,
+        -0.03732993391798998,
+        0.039
+      ],
+      "drawer_end_mm": 65.19570155022136,
+      "handle_contact": true
+    },
+    {
+      "episode": 38,
+      "directory": "episode-038",
+      "seed": 125038,
+      "frames": 303,
+      "rgb_frames": 101,
+      "success": true,
+      "drawer_start_mm": 6.465124458202939,
+      "handle_start_m": [
+        0.2304921368472747,
+        -0.04014222050391143,
+        0.039
+      ],
+      "drawer_end_mm": 65.20017397602167,
+      "handle_contact": true
+    },
+    {
+      "episode": 39,
+      "directory": "episode-039",
+      "seed": 125039,
+      "frames": 311,
+      "rgb_frames": 104,
+      "success": true,
+      "drawer_start_mm": 2.352288146972479,
+      "handle_start_m": [
+        0.22831900310261893,
+        -0.04146826755233704,
+        0.039
+      ],
+      "drawer_end_mm": 65.35648566340913,
+      "handle_contact": true
+    },
+    {
+      "episode": 40,
+      "directory": "episode-040",
+      "seed": 125040,
+      "frames": 309,
+      "rgb_frames": 103,
+      "success": true,
+      "drawer_start_mm": 2.914372279060183,
+      "handle_start_m": [
+        0.23079388151488311,
+        -0.046736959593901194,
+        0.039
+      ],
+      "drawer_end_mm": 64.93428402194786,
+      "handle_contact": true
+    },
+    {
+      "episode": 41,
+      "directory": "episode-041",
+      "seed": 125041,
+      "frames": 305,
+      "rgb_frames": 102,
+      "success": true,
+      "drawer_start_mm": 5.0225357560319415,
+      "handle_start_m": [
+        0.22413784986611174,
+        -0.0505530132528359,
+        0.039
+      ],
+      "drawer_end_mm": 64.96612829615204,
+      "handle_contact": true
+    },
+    {
+      "episode": 42,
+      "directory": "episode-042",
+      "seed": 125042,
+      "frames": 301,
+      "rgb_frames": 101,
+      "success": true,
+      "drawer_start_mm": 7.577902871025608,
+      "handle_start_m": [
+        0.22633394649186084,
+        -0.05270549669611624,
+        0.039
+      ],
+      "drawer_end_mm": 65.31409890513501,
+      "handle_contact": true
+    },
+    {
+      "episode": 43,
+      "directory": "episode-043",
+      "seed": 125043,
+      "frames": 300,
+      "rgb_frames": 100,
+      "success": true,
+      "drawer_start_mm": 7.458899670575662,
+      "handle_start_m": [
+        0.23289321931320356,
+        -0.05212459565121135,
+        0.039
+      ],
+      "drawer_end_mm": 65.02237154862307,
+      "handle_contact": true
+    },
+    {
+      "episode": 44,
+      "directory": "episode-044",
+      "seed": 125044,
+      "frames": 310,
+      "rgb_frames": 104,
+      "success": true,
+      "drawer_start_mm": 2.7318350225320014,
+      "handle_start_m": [
+        0.22765330882067286,
+        -0.03721987195370202,
+        0.039
+      ],
+      "drawer_end_mm": 65.39757250380491,
+      "handle_contact": true
+    },
+    {
+      "episode": 45,
+      "directory": "episode-045",
+      "seed": 125045,
+      "frames": 308,
+      "rgb_frames": 103,
+      "success": true,
+      "drawer_start_mm": 3.4176350111885796,
+      "handle_start_m": [
+        0.22856387830983,
+        -0.04897424265391155,
+        0.039
+      ],
+      "drawer_end_mm": 64.94836463476311,
+      "handle_contact": true
+    },
+    {
+      "episode": 46,
+      "directory": "episode-046",
+      "seed": 125046,
+      "frames": 316,
+      "rgb_frames": 106,
+      "success": true,
+      "drawer_start_mm": 2.5957707707144824,
+      "handle_start_m": [
+        0.22827201890887616,
+        -0.048278759903800476,
+        0.039
+      ],
+      "drawer_end_mm": 64.9762994664572,
+      "handle_contact": true
+    },
+    {
+      "episode": 47,
+      "directory": "episode-047",
+      "seed": 125047,
+      "frames": 307,
+      "rgb_frames": 103,
+      "success": true,
+      "drawer_start_mm": 4.472772860003404,
+      "handle_start_m": [
+        0.23924555877957415,
+        -0.04730206980559032,
+        0.039
+      ],
+      "drawer_end_mm": 65.35476716284319,
+      "handle_contact": true
+    },
+    {
+      "episode": 48,
+      "directory": "episode-048",
+      "seed": 125048,
+      "frames": 297,
+      "rgb_frames": 99,
+      "success": true,
+      "drawer_start_mm": 6.580340080670132,
+      "handle_start_m": [
+        0.23995631753549207,
+        -0.03645599092069718,
+        0.039
+      ],
+      "drawer_end_mm": 65.0107643491899,
+      "handle_contact": true
+    },
+    {
+      "episode": 49,
+      "directory": "episode-049",
+      "seed": 125049,
+      "frames": 329,
+      "rgb_frames": 110,
+      "success": true,
+      "drawer_start_mm": 0.3745809590752378,
+      "handle_start_m": [
+        0.23454165931617327,
+        -0.05360251470153093,
+        0.039
+      ],
+      "drawer_end_mm": 65.16575788999181,
+      "handle_contact": true
+    },
+    {
+      "episode": 50,
+      "directory": "episode-050",
+      "seed": 125050,
+      "frames": 308,
+      "rgb_frames": 103,
+      "success": true,
+      "drawer_start_mm": 3.9665437366108596,
+      "handle_start_m": [
+        0.23498819318822317,
+        -0.044233295036221545,
+        0.039
+      ],
+      "drawer_end_mm": 65.3587406194157,
+      "handle_contact": true
+    },
+    {
+      "episode": 51,
+      "directory": "episode-051",
+      "seed": 125051,
+      "frames": 306,
+      "rgb_frames": 102,
+      "success": true,
+      "drawer_start_mm": 4.8801375523028065,
+      "handle_start_m": [
+        0.23266954950864888,
+        -0.04332922603543382,
+        0.039
+      ],
+      "drawer_end_mm": 65.23011031056149,
+      "handle_contact": true
+    },
+    {
+      "episode": 52,
+      "directory": "episode-052",
+      "seed": 125052,
+      "frames": 312,
+      "rgb_frames": 104,
+      "success": true,
+      "drawer_start_mm": 1.2985298761087272,
+      "handle_start_m": [
+        0.23065076816052593,
+        -0.048576233093286215,
+        0.039
+      ],
+      "drawer_end_mm": 64.97209670668032,
+      "handle_contact": true
+    },
+    {
+      "episode": 53,
+      "directory": "episode-053",
+      "seed": 125053,
+      "frames": 310,
+      "rgb_frames": 104,
+      "success": true,
+      "drawer_start_mm": 2.3913660855700076,
+      "handle_start_m": [
+        0.23125375032707113,
+        -0.05131139893454064,
+        0.039
+      ],
+      "drawer_end_mm": 65.00744127857554,
+      "handle_contact": true
+    },
+    {
+      "episode": 54,
+      "directory": "episode-054",
+      "seed": 125054,
+      "frames": 300,
+      "rgb_frames": 100,
+      "success": true,
+      "drawer_start_mm": 5.9114320823766,
+      "handle_start_m": [
+        0.23780097581097925,
+        -0.0476451485456591,
+        0.039
+      ],
+      "drawer_end_mm": 64.6002503007482,
+      "handle_contact": true
+    },
+    {
+      "episode": 55,
+      "directory": "episode-055",
+      "seed": 125055,
+      "frames": 329,
+      "rgb_frames": 110,
+      "success": true,
+      "drawer_start_mm": 0.20019285009987886,
+      "handle_start_m": [
+        0.23807816345680444,
+        -0.05272425503742653,
+        0.039
+      ],
+      "drawer_end_mm": 65.0103787806491,
+      "handle_contact": true
+    },
+    {
+      "episode": 56,
+      "directory": "episode-056",
+      "seed": 125056,
+      "frames": 305,
+      "rgb_frames": 102,
+      "success": true,
+      "drawer_start_mm": 5.52895052536079,
+      "handle_start_m": [
+        0.23672628372707166,
+        -0.039746099620180726,
+        0.039
+      ],
+      "drawer_end_mm": 65.23518282054737,
+      "handle_contact": true
+    },
+    {
+      "episode": 57,
+      "directory": "episode-057",
+      "seed": 125057,
+      "frames": 311,
+      "rgb_frames": 104,
+      "success": true,
+      "drawer_start_mm": 1.994372454122381,
+      "handle_start_m": [
+        0.24259266354540454,
+        -0.0507742187286498,
+        0.039
+      ],
+      "drawer_end_mm": 65.07293843174301,
+      "handle_contact": true
+    },
+    {
+      "episode": 58,
+      "directory": "episode-058",
+      "seed": 125058,
+      "frames": 296,
+      "rgb_frames": 99,
+      "success": true,
+      "drawer_start_mm": 7.893018931172911,
+      "handle_start_m": [
+        0.23633674707121993,
+        -0.03698799296229123,
+        0.039
+      ],
+      "drawer_end_mm": 65.34983767172164,
+      "handle_contact": true
+    },
+    {
+      "episode": 59,
+      "directory": "episode-059",
+      "seed": 125059,
+      "frames": 299,
+      "rgb_frames": 100,
+      "success": true,
+      "drawer_start_mm": 7.233717753017905,
+      "handle_start_m": [
+        0.23456343218961817,
+        -0.04549263211845761,
+        0.039
+      ],
+      "drawer_end_mm": 65.01917729455542,
+      "handle_contact": true
+    },
+    {
+      "episode": 60,
+      "directory": "episode-060",
+      "seed": 125060,
+      "frames": 298,
+      "rgb_frames": 100,
+      "success": true,
+      "drawer_start_mm": 6.667767018637128,
+      "handle_start_m": [
+        0.22665519565565306,
+        -0.04076810709212697,
+        0.039
+      ],
+      "drawer_end_mm": 65.33751291316149,
+      "handle_contact": true
+    },
+    {
+      "episode": 61,
+      "directory": "episode-061",
+      "seed": 125061,
+      "frames": 299,
+      "rgb_frames": 100,
+      "success": true,
+      "drawer_start_mm": 7.330903029889608,
+      "handle_start_m": [
+        0.23648089344172146,
+        -0.04316723970883539,
+        0.039
+      ],
+      "drawer_end_mm": 65.45719618093825,
+      "handle_contact": true
+    },
+    {
+      "episode": 62,
+      "directory": "episode-062",
+      "seed": 125062,
+      "frames": 304,
+      "rgb_frames": 102,
+      "success": true,
+      "drawer_start_mm": 5.860115778705385,
+      "handle_start_m": [
+        0.22643198313812535,
+        -0.04286585184649098,
+        0.039
+      ],
+      "drawer_end_mm": 65.10780630717153,
+      "handle_contact": true
+    },
+    {
+      "episode": 63,
+      "directory": "episode-063",
+      "seed": 125063,
+      "frames": 309,
+      "rgb_frames": 103,
+      "success": true,
+      "drawer_start_mm": 3.0912513915864706,
+      "handle_start_m": [
+        0.22657878961034023,
+        -0.036705379538688486,
+        0.039
+      ],
+      "drawer_end_mm": 65.06786194935074,
+      "handle_contact": true
+    },
+    {
+      "episode": 64,
+      "directory": "episode-064",
+      "seed": 125064,
+      "frames": 317,
+      "rgb_frames": 106,
+      "success": true,
+      "drawer_start_mm": 2.522646387174484,
+      "handle_start_m": [
+        0.23297710453657322,
+        -0.040195454082887126,
+        0.039
+      ],
+      "drawer_end_mm": 65.2861931518335,
+      "handle_contact": true
+    },
+    {
+      "episode": 65,
+      "directory": "episode-065",
+      "seed": 125065,
+      "frames": 312,
+      "rgb_frames": 104,
+      "success": true,
+      "drawer_start_mm": 1.3439356070351254,
+      "handle_start_m": [
+        0.2440854593031767,
+        -0.046551369510891685,
+        0.039
+      ],
+      "drawer_end_mm": 64.8885005381373,
+      "handle_contact": true
+    },
+    {
+      "episode": 66,
+      "directory": "episode-066",
+      "seed": 125066,
+      "frames": 303,
+      "rgb_frames": 101,
+      "success": true,
+      "drawer_start_mm": 5.117260899573319,
+      "handle_start_m": [
+        0.2336183225770176,
+        -0.05335652099201149,
+        0.039
+      ],
+      "drawer_end_mm": 64.86527201231132,
+      "handle_contact": true
+    },
+    {
+      "episode": 67,
+      "directory": "episode-067",
+      "seed": 125067,
+      "frames": 311,
+      "rgb_frames": 104,
+      "success": true,
+      "drawer_start_mm": 1.9301166339086313,
+      "handle_start_m": [
+        0.2349808750476744,
+        -0.038443261402981765,
+        0.039
+      ],
+      "drawer_end_mm": 64.94818294996693,
+      "handle_contact": true
+    },
+    {
+      "episode": 68,
+      "directory": "episode-068",
+      "seed": 125068,
+      "frames": 327,
+      "rgb_frames": 109,
+      "success": true,
+      "drawer_start_mm": 0.634079983728256,
+      "handle_start_m": [
+        0.22946941243171487,
+        -0.03697229361867603,
+        0.039
+      ],
+      "drawer_end_mm": 65.11070610355921,
+      "handle_contact": true
+    },
+    {
+      "episode": 69,
+      "directory": "episode-069",
+      "seed": 125069,
+      "frames": 302,
+      "rgb_frames": 101,
+      "success": true,
+      "drawer_start_mm": 3.798381239357787,
+      "handle_start_m": [
+        0.22526270132683518,
+        -0.03951237684140931,
+        0.039
+      ],
+      "drawer_end_mm": 65.31365386525886,
+      "handle_contact": true
+    },
+    {
+      "episode": 70,
+      "directory": "episode-070",
+      "seed": 125070,
+      "frames": 303,
+      "rgb_frames": 101,
+      "success": true,
+      "drawer_start_mm": 6.229673951793829,
+      "handle_start_m": [
+        0.22601515584189336,
+        -0.05180537164577659,
+        0.039
+      ],
+      "drawer_end_mm": 65.06885170835821,
+      "handle_contact": true
+    },
+    {
+      "episode": 71,
+      "directory": "episode-071",
+      "seed": 125071,
+      "frames": 307,
+      "rgb_frames": 103,
+      "success": true,
+      "drawer_start_mm": 4.4367792938290185,
+      "handle_start_m": [
+        0.2322151264781217,
+        -0.04633763120263443,
+        0.039
+      ],
+      "drawer_end_mm": 65.340338230098,
+      "handle_contact": true
+    },
+    {
+      "episode": 72,
+      "directory": "episode-072",
+      "seed": 125072,
+      "frames": 297,
+      "rgb_frames": 99,
+      "success": true,
+      "drawer_start_mm": 7.251071604054443,
+      "handle_start_m": [
+        0.2365917694432365,
+        -0.03616241404080528,
+        0.039
+      ],
+      "drawer_end_mm": 65.37150226011424,
+      "handle_contact": true
+    },
+    {
+      "episode": 73,
+      "directory": "episode-073",
+      "seed": 125073,
+      "frames": 299,
+      "rgb_frames": 100,
+      "success": true,
+      "drawer_start_mm": 6.843190196098043,
+      "handle_start_m": [
+        0.23627859479058855,
+        -0.04865776512211112,
+        0.039
+      ],
+      "drawer_end_mm": 65.24653615640695,
+      "handle_contact": true
+    },
+    {
+      "episode": 74,
+      "directory": "episode-074",
+      "seed": 125074,
+      "frames": 307,
+      "rgb_frames": 103,
+      "success": true,
+      "drawer_start_mm": 4.545992799612027,
+      "handle_start_m": [
+        0.23501377890555541,
+        -0.04460177002828799,
+        0.039
+      ],
+      "drawer_end_mm": 65.39100326418318,
+      "handle_contact": true
+    },
+    {
+      "episode": 75,
+      "directory": "episode-075",
+      "seed": 125075,
+      "frames": 329,
+      "rgb_frames": 110,
+      "success": true,
+      "drawer_start_mm": 0.5288183679812377,
+      "handle_start_m": [
+        0.23371539753012432,
+        -0.04911635409181821,
+        0.039
+      ],
+      "drawer_end_mm": 65.19923036560617,
+      "handle_contact": true
+    },
+    {
+      "episode": 76,
+      "directory": "episode-076",
+      "seed": 125076,
+      "frames": 301,
+      "rgb_frames": 101,
+      "success": true,
+      "drawer_start_mm": 7.1654214434680945,
+      "handle_start_m": [
+        0.22679558876317318,
+        -0.04917024164656292,
+        0.039
+      ],
+      "drawer_end_mm": 65.30755049099784,
+      "handle_contact": true
+    },
+    {
+      "episode": 77,
+      "directory": "episode-077",
+      "seed": 125077,
+      "frames": 303,
+      "rgb_frames": 101,
+      "success": true,
+      "drawer_start_mm": 6.394412796831466,
+      "handle_start_m": [
+        0.23325519759439456,
+        -0.05344487102622604,
+        0.039
+      ],
+      "drawer_end_mm": 65.16966006010236,
+      "handle_contact": true
+    },
+    {
+      "episode": 78,
+      "directory": "episode-078",
+      "seed": 125078,
+      "frames": 308,
+      "rgb_frames": 103,
+      "success": true,
+      "drawer_start_mm": 3.8644646083146137,
+      "handle_start_m": [
+        0.23561313112075233,
+        -0.03647591295547442,
+        0.039
+      ],
+      "drawer_end_mm": 65.4262349057918,
+      "handle_contact": true
+    },
+    {
+      "episode": 79,
+      "directory": "episode-079",
+      "seed": 125079,
+      "frames": 311,
+      "rgb_frames": 104,
+      "success": true,
+      "drawer_start_mm": 1.8413416939120193,
+      "handle_start_m": [
+        0.2371845816854551,
+        -0.03940280962445066,
+        0.039
+      ],
+      "drawer_end_mm": 64.87642479584704,
+      "handle_contact": true
+    },
+    {
+      "episode": 80,
+      "directory": "episode-080",
+      "seed": 125080,
+      "frames": 299,
+      "rgb_frames": 100,
+      "success": true,
+      "drawer_start_mm": 6.888871740698744,
+      "handle_start_m": [
+        0.23739371281806793,
+        -0.04201883068861763,
+        0.039
+      ],
+      "drawer_end_mm": 65.2226679340345,
+      "handle_contact": true
+    },
+    {
+      "episode": 81,
+      "directory": "episode-081",
+      "seed": 125081,
+      "frames": 332,
+      "rgb_frames": 111,
+      "success": true,
+      "drawer_start_mm": 0.12067002841966357,
+      "handle_start_m": [
+        0.2355663203775306,
+        -0.05242846901609663,
+        0.039
+      ],
+      "drawer_end_mm": 65.49383937928437,
+      "handle_contact": true
+    },
+    {
+      "episode": 82,
+      "directory": "episode-082",
+      "seed": 125082,
+      "frames": 312,
+      "rgb_frames": 104,
+      "success": true,
+      "drawer_start_mm": 1.6567279724325257,
+      "handle_start_m": [
+        0.22751568168460307,
+        -0.04164386634160102,
+        0.039
+      ],
+      "drawer_end_mm": 65.19157139018274,
+      "handle_contact": true
+    },
+    {
+      "episode": 83,
+      "directory": "episode-083",
+      "seed": 125083,
+      "frames": 313,
+      "rgb_frames": 105,
+      "success": true,
+      "drawer_start_mm": 0.7668722256749518,
+      "handle_start_m": [
+        0.24175955322060305,
+        -0.04463230148648004,
+        0.039
+      ],
+      "drawer_end_mm": 64.89403021400348,
+      "handle_contact": true
+    },
+    {
+      "episode": 84,
+      "directory": "episode-084",
+      "seed": 125084,
+      "frames": 299,
+      "rgb_frames": 100,
+      "success": true,
+      "drawer_start_mm": 7.9486751165864975,
+      "handle_start_m": [
+        0.23425262782044154,
+        -0.05161803035586866,
+        0.039
+      ],
+      "drawer_end_mm": 65.04365297196874,
+      "handle_contact": true
+    },
+    {
+      "episode": 85,
+      "directory": "episode-085",
+      "seed": 125085,
+      "frames": 306,
+      "rgb_frames": 102,
+      "success": true,
+      "drawer_start_mm": 4.922938828056041,
+      "handle_start_m": [
+        0.23408515966768922,
+        -0.03938028821336696,
+        0.039
+      ],
+      "drawer_end_mm": 65.26601707354057,
+      "handle_contact": true
+    },
+    {
+      "episode": 86,
+      "directory": "episode-086",
+      "seed": 125086,
+      "frames": 309,
+      "rgb_frames": 103,
+      "success": true,
+      "drawer_start_mm": 3.150741448898363,
+      "handle_start_m": [
+        0.24336160742113694,
+        -0.046032842628895794,
+        0.039
+      ],
+      "drawer_end_mm": 65.05654512918471,
+      "handle_contact": true
+    },
+    {
+      "episode": 87,
+      "directory": "episode-087",
+      "seed": 125087,
+      "frames": 330,
+      "rgb_frames": 110,
+      "success": true,
+      "drawer_start_mm": 0.3005460631135266,
+      "handle_start_m": [
+        0.2396378387210611,
+        -0.04635379172981277,
+        0.039
+      ],
+      "drawer_end_mm": 65.29275403606506,
+      "handle_contact": true
+    },
+    {
+      "episode": 88,
+      "directory": "episode-088",
+      "seed": 125088,
+      "frames": 300,
+      "rgb_frames": 100,
+      "success": true,
+      "drawer_start_mm": 6.744663642633951,
+      "handle_start_m": [
+        0.22293562348846374,
+        -0.05109366011404218,
+        0.039
+      ],
+      "drawer_end_mm": 65.22858212259348,
+      "handle_contact": true
+    },
+    {
+      "episode": 89,
+      "directory": "episode-089",
+      "seed": 125089,
+      "frames": 304,
+      "rgb_frames": 102,
+      "success": true,
+      "drawer_start_mm": 5.889597977866496,
+      "handle_start_m": [
+        0.24011107375379515,
+        -0.036746618019584926,
+        0.039
+      ],
+      "drawer_end_mm": 65.09228629773547,
+      "handle_contact": true
+    },
+    {
+      "episode": 90,
+      "directory": "episode-090",
+      "seed": 125090,
+      "frames": 296,
+      "rgb_frames": 99,
+      "success": true,
+      "drawer_start_mm": 7.91639606510988,
+      "handle_start_m": [
+        0.2274364928570528,
+        -0.03807998658944453,
+        0.039
+      ],
+      "drawer_end_mm": 64.93471980909767,
+      "handle_contact": true
+    },
+    {
+      "episode": 91,
+      "directory": "episode-091",
+      "seed": 125091,
+      "frames": 308,
+      "rgb_frames": 103,
+      "success": true,
+      "drawer_start_mm": 3.5888115663715383,
+      "handle_start_m": [
+        0.23898400301981615,
+        -0.042093226666455555,
+        0.039
+      ],
+      "drawer_end_mm": 64.94616567206054,
+      "handle_contact": true
+    },
+    {
+      "episode": 92,
+      "directory": "episode-092",
+      "seed": 125092,
+      "frames": 304,
+      "rgb_frames": 102,
+      "success": true,
+      "drawer_start_mm": 5.657031633237766,
+      "handle_start_m": [
+        0.22460534726397824,
+        -0.05300058889554789,
+        0.039
+      ],
+      "drawer_end_mm": 65.10562169743756,
+      "handle_contact": true
+    },
+    {
+      "episode": 93,
+      "directory": "episode-093",
+      "seed": 125093,
+      "frames": 309,
+      "rgb_frames": 103,
+      "success": true,
+      "drawer_start_mm": 3.179606523299495,
+      "handle_start_m": [
+        0.2397234993932189,
+        -0.05247617089679978,
+        0.039
+      ],
+      "drawer_end_mm": 65.19168933592634,
+      "handle_contact": true
+    },
+    {
+      "episode": 94,
+      "directory": "episode-094",
+      "seed": 125094,
+      "frames": 307,
+      "rgb_frames": 103,
+      "success": true,
+      "drawer_start_mm": 4.492679165763157,
+      "handle_start_m": [
+        0.23392182359855718,
+        -0.05023890595065977,
+        0.039
+      ],
+      "drawer_end_mm": 65.42321498092097,
+      "handle_contact": true
+    },
+    {
+      "episode": 95,
+      "directory": "episode-095",
+      "seed": 125095,
+      "frames": 319,
+      "rgb_frames": 107,
+      "success": true,
+      "drawer_start_mm": 1.119549380363921,
+      "handle_start_m": [
+        0.23957301077499737,
+        -0.050506275444497845,
+        0.039
+      ],
+      "drawer_end_mm": 65.1297189598166,
+      "handle_contact": true
+    },
+    {
+      "episode": 96,
+      "directory": "episode-096",
+      "seed": 125096,
+      "frames": 302,
+      "rgb_frames": 101,
+      "success": true,
+      "drawer_start_mm": 5.563565094214724,
+      "handle_start_m": [
+        0.23937081290910922,
+        -0.048916928340283924,
+        0.039
+      ],
+      "drawer_end_mm": 64.90905284221203,
+      "handle_contact": true
+    },
+    {
+      "episode": 97,
+      "directory": "episode-097",
+      "seed": 125097,
+      "frames": 308,
+      "rgb_frames": 103,
+      "success": true,
+      "drawer_start_mm": 3.6660312611786168,
+      "handle_start_m": [
+        0.23064729212010188,
+        -0.038088127812616696,
+        0.039
+      ],
+      "drawer_end_mm": 65.15010411615629,
+      "handle_contact": true
+    },
+    {
+      "episode": 98,
+      "directory": "episode-098",
+      "seed": 125098,
+      "frames": 312,
+      "rgb_frames": 104,
+      "success": true,
+      "drawer_start_mm": 1.343290247630871,
+      "handle_start_m": [
+        0.23570692237238006,
+        -0.04572459559944424,
+        0.039
+      ],
+      "drawer_end_mm": 64.95492699007119,
+      "handle_contact": true
+    },
+    {
+      "episode": 99,
+      "directory": "episode-099",
+      "seed": 125099,
+      "frames": 306,
+      "rgb_frames": 102,
+      "success": true,
+      "drawer_start_mm": 4.3895839099543625,
+      "handle_start_m": [
+        0.22876440341793158,
+        -0.042021948628566855,
+        0.039
+      ],
+      "drawer_end_mm": 65.0779110817295,
+      "handle_contact": true
+    },
+    {
+      "episode": 100,
+      "directory": "episode-100",
+      "seed": 125100,
+      "frames": 318,
+      "rgb_frames": 106,
+      "success": true,
+      "drawer_start_mm": 1.371398277047545,
+      "handle_start_m": [
+        0.24159181653144524,
+        -0.05357515645952277,
+        0.039
+      ],
+      "drawer_end_mm": 64.87834758476173,
+      "handle_contact": true
+    },
+    {
+      "episode": 101,
+      "directory": "episode-101",
+      "seed": 125101,
+      "frames": 310,
+      "rgb_frames": 104,
+      "success": true,
+      "drawer_start_mm": 2.8263349804986824,
+      "handle_start_m": [
+        0.2361891403706553,
+        -0.04095996139158177,
+        0.039
+      ],
+      "drawer_end_mm": 65.30044168114469,
+      "handle_contact": true
+    },
+    {
+      "episode": 102,
+      "directory": "episode-102",
+      "seed": 125102,
+      "frames": 307,
+      "rgb_frames": 103,
+      "success": true,
+      "drawer_start_mm": 4.2608873821287006,
+      "handle_start_m": [
+        0.23123968796096933,
+        -0.0445358281479973,
+        0.039
+      ],
+      "drawer_end_mm": 65.19578227982754,
+      "handle_contact": true
+    },
+    {
+      "episode": 103,
+      "directory": "episode-103",
+      "seed": 125103,
+      "frames": 305,
+      "rgb_frames": 102,
+      "success": true,
+      "drawer_start_mm": 4.94640974972182,
+      "handle_start_m": [
+        0.23135388625545994,
+        -0.042989680993183066,
+        0.039
+      ],
+      "drawer_end_mm": 65.05854769866217,
+      "handle_contact": true
+    },
+    {
+      "episode": 104,
+      "directory": "episode-104",
+      "seed": 125104,
+      "frames": 302,
+      "rgb_frames": 101,
+      "success": true,
+      "drawer_start_mm": 7.204151857690687,
+      "handle_start_m": [
+        0.22778814067660247,
+        -0.052960283713088335,
+        0.039
+      ],
+      "drawer_end_mm": 65.32323819300106,
+      "handle_contact": true
+    },
+    {
+      "episode": 105,
+      "directory": "episode-105",
+      "seed": 125105,
+      "frames": 310,
+      "rgb_frames": 104,
+      "success": true,
+      "drawer_start_mm": 2.8397411805310986,
+      "handle_start_m": [
+        0.2312653591505605,
+        -0.04361764756887365,
+        0.039
+      ],
+      "drawer_end_mm": 65.39534830779058,
+      "handle_contact": true
+    },
+    {
+      "episode": 106,
+      "directory": "episode-106",
+      "seed": 125106,
+      "frames": 308,
+      "rgb_frames": 103,
+      "success": true,
+      "drawer_start_mm": 3.850644720977747,
+      "handle_start_m": [
+        0.2305942868932071,
+        -0.052098464098888464,
+        0.039
+      ],
+      "drawer_end_mm": 65.3973518403711,
+      "handle_contact": true
+    },
+    {
+      "episode": 107,
+      "directory": "episode-107",
+      "seed": 125107,
+      "frames": 301,
+      "rgb_frames": 101,
+      "success": true,
+      "drawer_start_mm": 7.6552923993227795,
+      "handle_start_m": [
+        0.22376813048284255,
+        -0.052376604649423626,
+        0.039
+      ],
+      "drawer_end_mm": 65.31997283471458,
+      "handle_contact": true
+    },
+    {
+      "episode": 108,
+      "directory": "episode-108",
+      "seed": 125108,
+      "frames": 303,
+      "rgb_frames": 101,
+      "success": true,
+      "drawer_start_mm": 5.950180621267345,
+      "handle_start_m": [
+        0.2273712805809044,
+        -0.045557337611955386,
+        0.039
+      ],
+      "drawer_end_mm": 65.02198758919502,
+      "handle_contact": true
+    },
+    {
+      "episode": 109,
+      "directory": "episode-109",
+      "seed": 125109,
+      "frames": 304,
+      "rgb_frames": 102,
+      "success": true,
+      "drawer_start_mm": 5.894964454901532,
+      "handle_start_m": [
+        0.22337629386370034,
+        -0.04902764513364335,
+        0.039
+      ],
+      "drawer_end_mm": 65.29958015015266,
+      "handle_contact": true
+    },
+    {
+      "episode": 110,
+      "directory": "episode-110",
+      "seed": 125110,
+      "frames": 299,
+      "rgb_frames": 100,
+      "success": true,
+      "drawer_start_mm": 6.85732226277215,
+      "handle_start_m": [
+        0.23820358622937887,
+        -0.04358996867393973,
+        0.039
+      ],
+      "drawer_end_mm": 65.44760323342314,
+      "handle_contact": true
+    },
+    {
+      "episode": 111,
+      "directory": "episode-111",
+      "seed": 125111,
+      "frames": 310,
+      "rgb_frames": 104,
+      "success": true,
+      "drawer_start_mm": 2.7559250602955716,
+      "handle_start_m": [
+        0.24126697733888242,
+        -0.046358841192103456,
+        0.039
+      ],
+      "drawer_end_mm": 65.22240350270079,
+      "handle_contact": true
+    },
+    {
+      "episode": 112,
+      "directory": "episode-112",
+      "seed": 125112,
+      "frames": 312,
+      "rgb_frames": 104,
+      "success": true,
+      "drawer_start_mm": 1.7859066950906355,
+      "handle_start_m": [
+        0.23954818192286215,
+        -0.04511449140754611,
+        0.039
+      ],
+      "drawer_end_mm": 65.30942027805109,
+      "handle_contact": true
+    },
+    {
+      "episode": 113,
+      "directory": "episode-113",
+      "seed": 125113,
+      "frames": 313,
+      "rgb_frames": 105,
+      "success": true,
+      "drawer_start_mm": 0.9541932789785648,
+      "handle_start_m": [
+        0.23328721517365958,
+        -0.03783660273678198,
+        0.039
+      ],
+      "drawer_end_mm": 65.09713477626859,
+      "handle_contact": true
+    },
+    {
+      "episode": 114,
+      "directory": "episode-114",
+      "seed": 125114,
+      "frames": 329,
+      "rgb_frames": 110,
+      "success": true,
+      "drawer_start_mm": 0.3965208484482244,
+      "handle_start_m": [
+        0.243514234484848,
+        -0.046458748726315266,
+        0.039
+      ],
+      "drawer_end_mm": 65.04202753418167,
+      "handle_contact": true
+    },
+    {
+      "episode": 115,
+      "directory": "episode-115",
+      "seed": 125115,
+      "frames": 304,
+      "rgb_frames": 102,
+      "success": true,
+      "drawer_start_mm": 6.076748396943409,
+      "handle_start_m": [
+        0.2236734295037328,
+        -0.046765071844499455,
+        0.039
+      ],
+      "drawer_end_mm": 65.4084101612538,
+      "handle_contact": true
+    },
+    {
+      "episode": 116,
+      "directory": "episode-116",
+      "seed": 125116,
+      "frames": 305,
+      "rgb_frames": 102,
+      "success": true,
+      "drawer_start_mm": 5.215568317807133,
+      "handle_start_m": [
+        0.224534449347343,
+        -0.04373527619452858,
+        0.039
+      ],
+      "drawer_end_mm": 65.15868149591192,
+      "handle_contact": true
+    },
+    {
+      "episode": 117,
+      "directory": "episode-117",
+      "seed": 125117,
+      "frames": 312,
+      "rgb_frames": 104,
+      "success": true,
+      "drawer_start_mm": 1.3684489067848693,
+      "handle_start_m": [
+        0.23777991883636374,
+        -0.03971477756955122,
+        0.039
+      ],
+      "drawer_end_mm": 64.89245021962324,
+      "handle_contact": true
+    },
+    {
+      "episode": 118,
+      "directory": "episode-118",
+      "seed": 125118,
+      "frames": 306,
+      "rgb_frames": 102,
+      "success": true,
+      "drawer_start_mm": 4.6123632445375335,
+      "handle_start_m": [
+        0.24215199492500428,
+        -0.0377336187942377,
+        0.039
+      ],
+      "drawer_end_mm": 65.07985075997075,
+      "handle_contact": true
+    },
+    {
+      "episode": 119,
+      "directory": "episode-119",
+      "seed": 125119,
+      "frames": 299,
+      "rgb_frames": 100,
+      "success": true,
+      "drawer_start_mm": 7.1000046721948165,
+      "handle_start_m": [
+        0.23228727193518084,
+        -0.04091906564970327,
+        0.039
+      ],
+      "drawer_end_mm": 65.4662438255398,
+      "handle_contact": true
+    },
+    {
+      "episode": 120,
+      "directory": "episode-120",
+      "seed": 125120,
+      "frames": 302,
+      "rgb_frames": 101,
+      "success": true,
+      "drawer_start_mm": 6.530156570567929,
+      "handle_start_m": [
+        0.2333198176671858,
+        -0.05146217561326882,
+        0.039
+      ],
+      "drawer_end_mm": 64.90989921107433,
+      "handle_contact": true
+    },
+    {
+      "episode": 121,
+      "directory": "episode-121",
+      "seed": 125121,
+      "frames": 310,
+      "rgb_frames": 104,
+      "success": true,
+      "drawer_start_mm": 2.7805619023664665,
+      "handle_start_m": [
+        0.23974705311226885,
+        -0.04450355885998883,
+        0.039
+      ],
+      "drawer_end_mm": 65.23898185504234,
+      "handle_contact": true
+    },
+    {
+      "episode": 122,
+      "directory": "episode-122",
+      "seed": 125122,
+      "frames": 308,
+      "rgb_frames": 103,
+      "success": true,
+      "drawer_start_mm": 3.731180590975675,
+      "handle_start_m": [
+        0.23018868361156114,
+        -0.03637839076786347,
+        0.039
+      ],
+      "drawer_end_mm": 65.27651879367824,
+      "handle_contact": true
+    },
+    {
+      "episode": 123,
+      "directory": "episode-123",
+      "seed": 125123,
+      "frames": 305,
+      "rgb_frames": 102,
+      "success": true,
+      "drawer_start_mm": 5.154766708366125,
+      "handle_start_m": [
+        0.2417527152404098,
+        -0.04578426157410104,
+        0.039
+      ],
+      "drawer_end_mm": 64.87112089728156,
+      "handle_contact": true
+    },
+    {
+      "episode": 124,
+      "directory": "episode-124",
+      "seed": 125124,
+      "frames": 303,
+      "rgb_frames": 101,
+      "success": true,
+      "drawer_start_mm": 6.497349629659961,
+      "handle_start_m": [
+        0.22645818328077055,
+        -0.052416028827013635,
+        0.039
+      ],
+      "drawer_end_mm": 65.33968850276463,
+      "handle_contact": true
+    },
+    {
+      "episode": 125,
+      "directory": "episode-125",
+      "seed": 125125,
+      "frames": 299,
+      "rgb_frames": 100,
+      "success": true,
+      "drawer_start_mm": 7.226446652654563,
+      "handle_start_m": [
+        0.23915859787652738,
+        -0.04356338509744461,
+        0.039
+      ],
+      "drawer_end_mm": 65.3647450793374,
+      "handle_contact": true
+    },
+    {
+      "episode": 126,
+      "directory": "episode-126",
+      "seed": 125126,
+      "frames": 313,
+      "rgb_frames": 105,
+      "success": true,
+      "drawer_start_mm": 1.0590523404437517,
+      "handle_start_m": [
+        0.23479573761938072,
+        -0.043287888801158095,
+        0.039
+      ],
+      "drawer_end_mm": 65.15759860261548,
+      "handle_contact": true
+    },
+    {
+      "episode": 127,
+      "directory": "episode-127",
+      "seed": 125127,
+      "frames": 306,
+      "rgb_frames": 102,
+      "success": true,
+      "drawer_start_mm": 4.6057243376427826,
+      "handle_start_m": [
+        0.23049352599101813,
+        -0.04042632136409532,
+        0.039
+      ],
+      "drawer_end_mm": 65.2560122872811,
+      "handle_contact": true
+    },
+    {
+      "episode": 128,
+      "directory": "episode-128",
+      "seed": 125128,
+      "frames": 304,
+      "rgb_frames": 102,
+      "success": true,
+      "drawer_start_mm": 5.347592691995721,
+      "handle_start_m": [
+        0.23528080078900443,
+        -0.047517365483107234,
+        0.039
+      ],
+      "drawer_end_mm": 65.26922775504809,
+      "handle_contact": true
+    },
+    {
+      "episode": 129,
+      "directory": "episode-129",
+      "seed": 125129,
+      "frames": 313,
+      "rgb_frames": 105,
+      "success": true,
+      "drawer_start_mm": 1.1142555828242298,
+      "handle_start_m": [
+        0.22945542701822835,
+        -0.04162212639864693,
+        0.039
+      ],
+      "drawer_end_mm": 65.1846581312495,
+      "handle_contact": true
+    },
+    {
+      "episode": 130,
+      "directory": "episode-130",
+      "seed": 125130,
+      "frames": 329,
+      "rgb_frames": 110,
+      "success": true,
+      "drawer_start_mm": 0.6826908536065011,
+      "handle_start_m": [
+        0.23394989181402065,
+        -0.047702187101692634,
+        0.039
+      ],
+      "drawer_end_mm": 65.53960417981821,
+      "handle_contact": true
+    },
+    {
+      "episode": 131,
+      "directory": "episode-131",
+      "seed": 125131,
+      "frames": 307,
+      "rgb_frames": 103,
+      "success": true,
+      "drawer_start_mm": 4.267273726554121,
+      "handle_start_m": [
+        0.24181712626985152,
+        -0.04013227697002198,
+        0.039
+      ],
+      "drawer_end_mm": 65.29231054795129,
+      "handle_contact": true
+    },
+    {
+      "episode": 132,
+      "directory": "episode-132",
+      "seed": 125132,
+      "frames": 308,
+      "rgb_frames": 103,
+      "success": true,
+      "drawer_start_mm": 3.9196061230703205,
+      "handle_start_m": [
+        0.24174625207973727,
+        -0.0514342717501904,
+        0.039
+      ],
+      "drawer_end_mm": 65.35648422392205,
+      "handle_contact": true
+    },
+    {
+      "episode": 133,
+      "directory": "episode-133",
+      "seed": 125133,
+      "frames": 309,
+      "rgb_frames": 103,
+      "success": true,
+      "drawer_start_mm": 3.2343002558433813,
+      "handle_start_m": [
+        0.23762908154504297,
+        -0.03843437756860644,
+        0.039
+      ],
+      "drawer_end_mm": 65.15881729249703,
+      "handle_contact": true
+    },
+    {
+      "episode": 134,
+      "directory": "episode-134",
+      "seed": 125134,
+      "frames": 328,
+      "rgb_frames": 110,
+      "success": true,
+      "drawer_start_mm": 0.8224156989982214,
+      "handle_start_m": [
+        0.23259416351689272,
+        -0.05059915020279155,
+        0.039
+      ],
+      "drawer_end_mm": 65.5463596735555,
+      "handle_contact": true
+    },
+    {
+      "episode": 135,
+      "directory": "episode-135",
+      "seed": 125135,
+      "frames": 303,
+      "rgb_frames": 101,
+      "success": true,
+      "drawer_start_mm": 6.54798212285783,
+      "handle_start_m": [
+        0.22908185748341392,
+        -0.05226058681900409,
+        0.039
+      ],
+      "drawer_end_mm": 65.35579391593132,
+      "handle_contact": true
+    },
+    {
+      "episode": 136,
+      "directory": "episode-136",
+      "seed": 125136,
+      "frames": 313,
+      "rgb_frames": 105,
+      "success": true,
+      "drawer_start_mm": 0.7852742177367888,
+      "handle_start_m": [
+        0.22990639661071915,
+        -0.036524834991629854,
+        0.039
+      ],
+      "drawer_end_mm": 64.78903063906964,
+      "handle_contact": true
+    },
+    {
+      "episode": 137,
+      "directory": "episode-137",
+      "seed": 125137,
+      "frames": 308,
+      "rgb_frames": 103,
+      "success": true,
+      "drawer_start_mm": 3.761189152987643,
+      "handle_start_m": [
+        0.23526353739978828,
+        -0.04973156619233722,
+        0.039
+      ],
+      "drawer_end_mm": 65.2219753308623,
+      "handle_contact": true
+    },
+    {
+      "episode": 138,
+      "directory": "episode-138",
+      "seed": 125138,
+      "frames": 302,
+      "rgb_frames": 101,
+      "success": true,
+      "drawer_start_mm": 6.403694614089334,
+      "handle_start_m": [
+        0.23418138403736777,
+        -0.04017634102942105,
+        0.039
+      ],
+      "drawer_end_mm": 65.1909832302807,
+      "handle_contact": true
+    },
+    {
+      "episode": 139,
+      "directory": "episode-139",
+      "seed": 125139,
+      "frames": 328,
+      "rgb_frames": 110,
+      "success": true,
+      "drawer_start_mm": 0.3392856421128565,
+      "handle_start_m": [
+        0.23957918016931823,
+        -0.04942165826599577,
+        0.039
+      ],
+      "drawer_end_mm": 65.10381100048407,
+      "handle_contact": true
+    },
+    {
+      "episode": 140,
+      "directory": "episode-140",
+      "seed": 125140,
+      "frames": 312,
+      "rgb_frames": 104,
+      "success": true,
+      "drawer_start_mm": 1.5982357680236179,
+      "handle_start_m": [
+        0.24203990645566748,
+        -0.04052952057313881,
+        0.039
+      ],
+      "drawer_end_mm": 65.0775125125316,
+      "handle_contact": true
+    },
+    {
+      "episode": 141,
+      "directory": "episode-141",
+      "seed": 125141,
+      "frames": 311,
+      "rgb_frames": 104,
+      "success": true,
+      "drawer_start_mm": 1.9732339061851343,
+      "handle_start_m": [
+        0.23218094669369532,
+        -0.05170717912513766,
+        0.039
+      ],
+      "drawer_end_mm": 65.13420027957295,
+      "handle_contact": true
+    },
+    {
+      "episode": 142,
+      "directory": "episode-142",
+      "seed": 125142,
+      "frames": 299,
+      "rgb_frames": 100,
+      "success": true,
+      "drawer_start_mm": 7.015684269180809,
+      "handle_start_m": [
+        0.2340012119348655,
+        -0.04288202730661089,
+        0.039
+      ],
+      "drawer_end_mm": 65.13910112146884,
+      "handle_contact": true
+    },
+    {
+      "episode": 143,
+      "directory": "episode-143",
+      "seed": 125143,
+      "frames": 317,
+      "rgb_frames": 106,
+      "success": true,
+      "drawer_start_mm": 2.2225790925005153,
+      "handle_start_m": [
+        0.23331855622918218,
+        -0.04774484182821151,
+        0.039
+      ],
+      "drawer_end_mm": 65.14852334150167,
+      "handle_contact": true
+    },
+    {
+      "episode": 144,
+      "directory": "episode-144",
+      "seed": 125144,
+      "frames": 297,
+      "rgb_frames": 99,
+      "success": true,
+      "drawer_start_mm": 6.488110777700209,
+      "handle_start_m": [
+        0.23437680466856192,
+        -0.03657154722663657,
+        0.039
+      ],
+      "drawer_end_mm": 65.21875193212593,
+      "handle_contact": true
+    },
+    {
+      "episode": 145,
+      "directory": "episode-145",
+      "seed": 125145,
+      "frames": 299,
+      "rgb_frames": 100,
+      "success": true,
+      "drawer_start_mm": 6.8924347474281396,
+      "handle_start_m": [
+        0.23160774913390825,
+        -0.04233331919318925,
+        0.039
+      ],
+      "drawer_end_mm": 65.01885436496781,
+      "handle_contact": true
+    },
+    {
+      "episode": 146,
+      "directory": "episode-146",
+      "seed": 125146,
+      "frames": 305,
+      "rgb_frames": 102,
+      "success": true,
+      "drawer_start_mm": 5.253475825966146,
+      "handle_start_m": [
+        0.23060773973175613,
+        -0.053276168779780086,
+        0.039
+      ],
+      "drawer_end_mm": 65.13806445915361,
+      "handle_contact": true
+    },
+    {
+      "episode": 147,
+      "directory": "episode-147",
+      "seed": 125147,
+      "frames": 310,
+      "rgb_frames": 104,
+      "success": true,
+      "drawer_start_mm": 2.6838115206131388,
+      "handle_start_m": [
+        0.24416407157162257,
+        -0.03967357850614535,
+        0.039
+      ],
+      "drawer_end_mm": 65.10683304746478,
+      "handle_contact": true
+    },
+    {
+      "episode": 148,
+      "directory": "episode-148",
+      "seed": 125148,
+      "frames": 317,
+      "rgb_frames": 106,
+      "success": true,
+      "drawer_start_mm": 2.4202409016424857,
+      "handle_start_m": [
+        0.24327753031763044,
+        -0.048721188137945945,
+        0.039
+      ],
+      "drawer_end_mm": 65.12867899739985,
+      "handle_contact": true
+    },
+    {
+      "episode": 149,
+      "directory": "episode-149",
+      "seed": 125149,
+      "frames": 303,
+      "rgb_frames": 101,
+      "success": true,
+      "drawer_start_mm": 6.336893229173912,
+      "handle_start_m": [
+        0.2332681193771886,
+        -0.03757528169802354,
+        0.039
+      ],
+      "drawer_end_mm": 65.23868710354525,
+      "handle_contact": true
+    },
+    {
+      "episode": 150,
+      "directory": "episode-150",
+      "seed": 125150,
+      "frames": 304,
+      "rgb_frames": 102,
+      "success": true,
+      "drawer_start_mm": 5.822050079186929,
+      "handle_start_m": [
+        0.2286037319816624,
+        -0.05317292728878669,
+        0.039
+      ],
+      "drawer_end_mm": 65.19771440214163,
+      "handle_contact": true
+    },
+    {
+      "episode": 151,
+      "directory": "episode-151",
+      "seed": 125151,
+      "frames": 312,
+      "rgb_frames": 104,
+      "success": true,
+      "drawer_start_mm": 1.5111185619947252,
+      "handle_start_m": [
+        0.23755124595782517,
+        -0.03828521108098916,
+        0.039
+      ],
+      "drawer_end_mm": 65.03480618349515,
+      "handle_contact": true
+    },
+    {
+      "episode": 152,
+      "directory": "episode-152",
+      "seed": 125152,
+      "frames": 312,
+      "rgb_frames": 104,
+      "success": true,
+      "drawer_start_mm": 1.6799491421255983,
+      "handle_start_m": [
+        0.2279201300178859,
+        -0.04073085216660487,
+        0.039
+      ],
+      "drawer_end_mm": 65.19614932197779,
+      "handle_contact": true
+    },
+    {
+      "episode": 153,
+      "directory": "episode-153",
+      "seed": 125153,
+      "frames": 330,
+      "rgb_frames": 110,
+      "success": true,
+      "drawer_start_mm": 0.28932894098311124,
+      "handle_start_m": [
+        0.23636838547177624,
+        -0.036064815148035126,
+        0.039
+      ],
+      "drawer_end_mm": 65.5564782766369,
+      "handle_contact": true
+    },
+    {
+      "episode": 154,
+      "directory": "episode-154",
+      "seed": 125154,
+      "frames": 300,
+      "rgb_frames": 100,
+      "success": true,
+      "drawer_start_mm": 7.901067235286531,
+      "handle_start_m": [
+        0.2247500415830076,
+        -0.05393360933881777,
+        0.039
+      ],
+      "drawer_end_mm": 65.26155208763917,
+      "handle_contact": true
+    },
+    {
+      "episode": 155,
+      "directory": "episode-155",
+      "seed": 125155,
+      "frames": 310,
+      "rgb_frames": 104,
+      "success": true,
+      "drawer_start_mm": 2.388003644497389,
+      "handle_start_m": [
+        0.23649971156535576,
+        -0.04348850646881116,
+        0.039
+      ],
+      "drawer_end_mm": 64.89509643370286,
+      "handle_contact": true
+    },
+    {
+      "episode": 156,
+      "directory": "episode-156",
+      "seed": 125156,
+      "frames": 328,
+      "rgb_frames": 110,
+      "success": true,
+      "drawer_start_mm": 0.8023282785324097,
+      "handle_start_m": [
+        0.24553613122754342,
+        -0.03612185894361091,
+        0.039
+      ],
+      "drawer_end_mm": 65.15976668765086,
+      "handle_contact": true
+    },
+    {
+      "episode": 157,
+      "directory": "episode-157",
+      "seed": 125157,
+      "frames": 318,
+      "rgb_frames": 106,
+      "success": true,
+      "drawer_start_mm": 2.0362767155652826,
+      "handle_start_m": [
+        0.2378027943514638,
+        -0.04019196271526161,
+        0.039
+      ],
+      "drawer_end_mm": 65.1376662673144,
+      "handle_contact": true
+    },
+    {
+      "episode": 158,
+      "directory": "episode-158",
+      "seed": 125158,
+      "frames": 329,
+      "rgb_frames": 110,
+      "success": true,
+      "drawer_start_mm": 0.4357903454613359,
+      "handle_start_m": [
+        0.2376556535903025,
+        -0.04038935739249846,
+        0.039
+      ],
+      "drawer_end_mm": 65.11471406793946,
+      "handle_contact": true
+    },
+    {
+      "episode": 159,
+      "directory": "episode-159",
+      "seed": 125159,
+      "frames": 329,
+      "rgb_frames": 110,
+      "success": true,
+      "drawer_start_mm": 0.32828099859731896,
+      "handle_start_m": [
+        0.24533091152450226,
+        -0.039638655681867294,
+        0.039
+      ],
+      "drawer_end_mm": 65.15033255133673,
+      "handle_contact": true
+    },
+    {
+      "episode": 160,
+      "directory": "episode-160",
+      "seed": 125160,
+      "frames": 308,
+      "rgb_frames": 103,
+      "success": true,
+      "drawer_start_mm": 3.75981448317863,
+      "handle_start_m": [
+        0.23226643040631856,
+        -0.04931008617426533,
+        0.039
+      ],
+      "drawer_end_mm": 65.26330081480275,
+      "handle_contact": true
+    },
+    {
+      "episode": 161,
+      "directory": "episode-161",
+      "seed": 125161,
+      "frames": 304,
+      "rgb_frames": 102,
+      "success": true,
+      "drawer_start_mm": 5.896253824500123,
+      "handle_start_m": [
+        0.22468674947486317,
+        -0.043277738204070174,
+        0.039
+      ],
+      "drawer_end_mm": 65.25922934819057,
+      "handle_contact": true
+    },
+    {
+      "episode": 162,
+      "directory": "episode-162",
+      "seed": 125162,
+      "frames": 308,
+      "rgb_frames": 103,
+      "success": true,
+      "drawer_start_mm": 3.617329778675174,
+      "handle_start_m": [
+        0.2365357262708903,
+        -0.043665505265739715,
+        0.039
+      ],
+      "drawer_end_mm": 65.00758574665694,
+      "handle_contact": true
+    },
+    {
+      "episode": 163,
+      "directory": "episode-163",
+      "seed": 125163,
+      "frames": 303,
+      "rgb_frames": 101,
+      "success": true,
+      "drawer_start_mm": 6.337050559100276,
+      "handle_start_m": [
+        0.2366274475663645,
+        -0.0434045775922728,
+        0.039
+      ],
+      "drawer_end_mm": 64.9816958635405,
+      "handle_contact": true
+    },
+    {
+      "episode": 164,
+      "directory": "episode-164",
+      "seed": 125164,
+      "frames": 298,
+      "rgb_frames": 100,
+      "success": true,
+      "drawer_start_mm": 7.73988019606985,
+      "handle_start_m": [
+        0.238199637076682,
+        -0.046065086146093816,
+        0.039
+      ],
+      "drawer_end_mm": 64.9849647641445,
+      "handle_contact": true
+    },
+    {
+      "episode": 165,
+      "directory": "episode-165",
+      "seed": 125165,
+      "frames": 313,
+      "rgb_frames": 105,
+      "success": true,
+      "drawer_start_mm": 1.1455926318160046,
+      "handle_start_m": [
+        0.24273170145897743,
+        -0.046358365472215814,
+        0.039
+      ],
+      "drawer_end_mm": 65.27282651725395,
+      "handle_contact": true
+    },
+    {
+      "episode": 166,
+      "directory": "episode-166",
+      "seed": 125166,
+      "frames": 303,
+      "rgb_frames": 101,
+      "success": true,
+      "drawer_start_mm": 5.8258022865929915,
+      "handle_start_m": [
+        0.2273894335247552,
+        -0.053749127251522574,
+        0.039
+      ],
+      "drawer_end_mm": 65.18654505060232,
+      "handle_contact": true
+    },
+    {
+      "episode": 167,
+      "directory": "episode-167",
+      "seed": 125167,
+      "frames": 309,
+      "rgb_frames": 103,
+      "success": true,
+      "drawer_start_mm": 2.89420439220015,
+      "handle_start_m": [
+        0.2326250343409072,
+        -0.0362295021549952,
+        0.039
+      ],
+      "drawer_end_mm": 65.03456962751964,
+      "handle_contact": true
+    },
+    {
+      "episode": 168,
+      "directory": "episode-168",
+      "seed": 125168,
+      "frames": 299,
+      "rgb_frames": 100,
+      "success": true,
+      "drawer_start_mm": 7.981233655666106,
+      "handle_start_m": [
+        0.22788186071525512,
+        -0.04646630570406276,
+        0.039
+      ],
+      "drawer_end_mm": 65.5278110706167,
+      "handle_contact": true
+    },
+    {
+      "episode": 169,
+      "directory": "episode-169",
+      "seed": 125169,
+      "frames": 311,
+      "rgb_frames": 104,
+      "success": true,
+      "drawer_start_mm": 2.066104116210207,
+      "handle_start_m": [
+        0.2312108131504963,
+        -0.04631400014952343,
+        0.039
+      ],
+      "drawer_end_mm": 65.14091437546611,
+      "handle_contact": true
+    },
+    {
+      "episode": 170,
+      "directory": "episode-170",
+      "seed": 125170,
+      "frames": 331,
+      "rgb_frames": 111,
+      "success": true,
+      "drawer_start_mm": 0.12273807081081145,
+      "handle_start_m": [
+        0.23710179497223127,
+        -0.05219334077184777,
+        0.039
+      ],
+      "drawer_end_mm": 65.47347121745126,
+      "handle_contact": true
+    },
+    {
+      "episode": 171,
+      "directory": "episode-171",
+      "seed": 125171,
+      "frames": 329,
+      "rgb_frames": 110,
+      "success": true,
+      "drawer_start_mm": 0.6231211622718753,
+      "handle_start_m": [
+        0.24225282724790453,
+        -0.051703339817247396,
+        0.039
+      ],
+      "drawer_end_mm": 65.45403296192048,
+      "handle_contact": true
+    },
+    {
+      "episode": 172,
+      "directory": "episode-172",
+      "seed": 125172,
+      "frames": 297,
+      "rgb_frames": 99,
+      "success": true,
+      "drawer_start_mm": 7.789992309293398,
+      "handle_start_m": [
+        0.22908268263783266,
+        -0.038337368268918065,
+        0.039
+      ],
+      "drawer_end_mm": 65.35017148859666,
+      "handle_contact": true
+    },
+    {
+      "episode": 173,
+      "directory": "episode-173",
+      "seed": 125173,
+      "frames": 329,
+      "rgb_frames": 110,
+      "success": true,
+      "drawer_start_mm": 0.5015028843495228,
+      "handle_start_m": [
+        0.23543284659874236,
+        -0.05113221369687457,
+        0.039
+      ],
+      "drawer_end_mm": 65.22150005447446,
+      "handle_contact": true
+    },
+    {
+      "episode": 174,
+      "directory": "episode-174",
+      "seed": 125174,
+      "frames": 329,
+      "rgb_frames": 110,
+      "success": true,
+      "drawer_start_mm": 0.5230922970160511,
+      "handle_start_m": [
+        0.2363000500046013,
+        -0.04526244275750273,
+        0.039
+      ],
+      "drawer_end_mm": 65.12660553868668,
+      "handle_contact": true
+    },
+    {
+      "episode": 175,
+      "directory": "episode-175",
+      "seed": 125175,
+      "frames": 306,
+      "rgb_frames": 102,
+      "success": true,
+      "drawer_start_mm": 4.61315857174973,
+      "handle_start_m": [
+        0.22534137395527426,
+        -0.052620318488238886,
+        0.039
+      ],
+      "drawer_end_mm": 65.16775931297256,
+      "handle_contact": true
+    },
+    {
+      "episode": 176,
+      "directory": "episode-176",
+      "seed": 125176,
+      "frames": 297,
+      "rgb_frames": 99,
+      "success": true,
+      "drawer_start_mm": 7.629269024500313,
+      "handle_start_m": [
+        0.22566455985600425,
+        -0.038282206379306474,
+        0.039
+      ],
+      "drawer_end_mm": 65.12023203846873,
+      "handle_contact": true
+    },
+    {
+      "episode": 177,
+      "directory": "episode-177",
+      "seed": 125177,
+      "frames": 304,
+      "rgb_frames": 102,
+      "success": true,
+      "drawer_start_mm": 5.222842317492689,
+      "handle_start_m": [
+        0.24085645194014538,
+        -0.05396920329864374,
+        0.039
+      ],
+      "drawer_end_mm": 64.93985206076856,
+      "handle_contact": true
+    },
+    {
+      "episode": 178,
+      "directory": "episode-178",
+      "seed": 125178,
+      "frames": 313,
+      "rgb_frames": 105,
+      "success": true,
+      "drawer_start_mm": 1.1086980564233624,
+      "handle_start_m": [
+        0.23832201347087434,
+        -0.03934788847969341,
+        0.039
+      ],
+      "drawer_end_mm": 65.15159457794927,
+      "handle_contact": true
+    },
+    {
+      "episode": 179,
+      "directory": "episode-179",
+      "seed": 125179,
+      "frames": 317,
+      "rgb_frames": 106,
+      "success": true,
+      "drawer_start_mm": 2.335655658633738,
+      "handle_start_m": [
+        0.2404252598561895,
+        -0.05342553326245512,
+        0.039
+      ],
+      "drawer_end_mm": 65.31511503837893,
+      "handle_contact": true
+    },
+    {
+      "episode": 180,
+      "directory": "episode-180",
+      "seed": 125180,
+      "frames": 302,
+      "rgb_frames": 101,
+      "success": true,
+      "drawer_start_mm": 6.988607682598148,
+      "handle_start_m": [
+        0.23311467681801473,
+        -0.051210360601518935,
+        0.039
+      ],
+      "drawer_end_mm": 65.45892858830926,
+      "handle_contact": true
+    },
+    {
+      "episode": 181,
+      "directory": "episode-181",
+      "seed": 125181,
+      "frames": 309,
+      "rgb_frames": 103,
+      "success": true,
+      "drawer_start_mm": 2.88859670023653,
+      "handle_start_m": [
+        0.23284976899489435,
+        -0.05004349600284332,
+        0.039
+      ],
+      "drawer_end_mm": 64.93244748419094,
+      "handle_contact": true
+    },
+    {
+      "episode": 182,
+      "directory": "episode-182",
+      "seed": 125182,
+      "frames": 303,
+      "rgb_frames": 101,
+      "success": true,
+      "drawer_start_mm": 6.428953914204338,
+      "handle_start_m": [
+        0.23671227534800038,
+        -0.051529923670844725,
+        0.039
+      ],
+      "drawer_end_mm": 65.22524224077668,
+      "handle_contact": true
+    },
+    {
+      "episode": 183,
+      "directory": "episode-183",
+      "seed": 125183,
+      "frames": 308,
+      "rgb_frames": 103,
+      "success": true,
+      "drawer_start_mm": 3.8735849726124583,
+      "handle_start_m": [
+        0.2253247646682603,
+        -0.044010376835735505,
+        0.039
+      ],
+      "drawer_end_mm": 65.43257630198865,
+      "handle_contact": true
+    },
+    {
+      "episode": 184,
+      "directory": "episode-184",
+      "seed": 125184,
+      "frames": 319,
+      "rgb_frames": 107,
+      "success": true,
+      "drawer_start_mm": 1.1966989860066297,
+      "handle_start_m": [
+        0.24125062301889294,
+        -0.049235666735110664,
+        0.039
+      ],
+      "drawer_end_mm": 65.08363664656495,
+      "handle_contact": true
+    },
+    {
+      "episode": 185,
+      "directory": "episode-185",
+      "seed": 125185,
+      "frames": 298,
+      "rgb_frames": 100,
+      "success": true,
+      "drawer_start_mm": 7.452821228283513,
+      "handle_start_m": [
+        0.22599223100453641,
+        -0.03940067179924853,
+        0.039
+      ],
+      "drawer_end_mm": 65.33130361009013,
+      "handle_contact": true
+    },
+    {
+      "episode": 186,
+      "directory": "episode-186",
+      "seed": 125186,
+      "frames": 310,
+      "rgb_frames": 104,
+      "success": true,
+      "drawer_start_mm": 2.7031677164841366,
+      "handle_start_m": [
+        0.23013510846616125,
+        -0.039373150919998164,
+        0.039
+      ],
+      "drawer_end_mm": 65.3744162088303,
+      "handle_contact": true
+    },
+    {
+      "episode": 187,
+      "directory": "episode-187",
+      "seed": 125187,
+      "frames": 300,
+      "rgb_frames": 100,
+      "success": true,
+      "drawer_start_mm": 7.024139495969057,
+      "handle_start_m": [
+        0.23891415865078186,
+        -0.04688807789046501,
+        0.039
+      ],
+      "drawer_end_mm": 65.29244709586159,
+      "handle_contact": true
+    },
+    {
+      "episode": 188,
+      "directory": "episode-188",
+      "seed": 125188,
+      "frames": 300,
+      "rgb_frames": 100,
+      "success": true,
+      "drawer_start_mm": 6.748700832043636,
+      "handle_start_m": [
+        0.22364310677936233,
+        -0.04862979400406965,
+        0.039
+      ],
+      "drawer_end_mm": 65.47562417353592,
+      "handle_contact": true
+    },
+    {
+      "episode": 189,
+      "directory": "episode-189",
+      "seed": 125189,
+      "frames": 319,
+      "rgb_frames": 107,
+      "success": true,
+      "drawer_start_mm": 1.6386309955452978,
+      "handle_start_m": [
+        0.2309004420281517,
+        -0.03740263897539686,
+        0.039
+      ],
+      "drawer_end_mm": 65.49562874562818,
+      "handle_contact": true
+    },
+    {
+      "episode": 190,
+      "directory": "episode-190",
+      "seed": 125190,
+      "frames": 299,
+      "rgb_frames": 100,
+      "success": true,
+      "drawer_start_mm": 5.991154453081029,
+      "handle_start_m": [
+        0.22975898359766722,
+        -0.03866714983630836,
+        0.039
+      ],
+      "drawer_end_mm": 65.2489587127144,
+      "handle_contact": true
+    },
+    {
+      "episode": 191,
+      "directory": "episode-191",
+      "seed": 125191,
+      "frames": 305,
+      "rgb_frames": 102,
+      "success": true,
+      "drawer_start_mm": 5.114573423966185,
+      "handle_start_m": [
+        0.23905220305152802,
+        -0.048739404025697555,
+        0.039
+      ],
+      "drawer_end_mm": 64.9155117729889,
+      "handle_contact": true
+    },
+    {
+      "episode": 192,
+      "directory": "episode-192",
+      "seed": 125192,
+      "frames": 300,
+      "rgb_frames": 100,
+      "success": true,
+      "drawer_start_mm": 5.904907701359583,
+      "handle_start_m": [
+        0.22975810165128097,
+        -0.03826454618637702,
+        0.039
+      ],
+      "drawer_end_mm": 64.65732932289927,
+      "handle_contact": true
+    },
+    {
+      "episode": 193,
+      "directory": "episode-193",
+      "seed": 125193,
+      "frames": 310,
+      "rgb_frames": 104,
+      "success": true,
+      "drawer_start_mm": 2.3838586267491566,
+      "handle_start_m": [
+        0.23946873698949783,
+        -0.038164272845916135,
+        0.039
+      ],
+      "drawer_end_mm": 65.04373058047277,
+      "handle_contact": true
+    },
+    {
+      "episode": 194,
+      "directory": "episode-194",
+      "seed": 125194,
+      "frames": 309,
+      "rgb_frames": 103,
+      "success": true,
+      "drawer_start_mm": 2.943446646217284,
+      "handle_start_m": [
+        0.24254727698827966,
+        -0.04063234358378133,
+        0.039
+      ],
+      "drawer_end_mm": 64.89426831917567,
+      "handle_contact": true
+    },
+    {
+      "episode": 195,
+      "directory": "episode-195",
+      "seed": 125195,
+      "frames": 330,
+      "rgb_frames": 110,
+      "success": true,
+      "drawer_start_mm": 0.32987103896220127,
+      "handle_start_m": [
+        0.23581343580630992,
+        -0.04489318298662484,
+        0.039
+      ],
+      "drawer_end_mm": 65.16547956283297,
+      "handle_contact": true
+    },
+    {
+      "episode": 196,
+      "directory": "episode-196",
+      "seed": 125196,
+      "frames": 312,
+      "rgb_frames": 104,
+      "success": true,
+      "drawer_start_mm": 1.2369241223584435,
+      "handle_start_m": [
+        0.23240165858852918,
+        -0.050091003603708974,
+        0.039
+      ],
+      "drawer_end_mm": 64.91395932834618,
+      "handle_contact": true
+    },
+    {
+      "episode": 197,
+      "directory": "episode-197",
+      "seed": 125197,
+      "frames": 298,
+      "rgb_frames": 100,
+      "success": true,
+      "drawer_start_mm": 7.297054446564748,
+      "handle_start_m": [
+        0.23912786775322792,
+        -0.04215050511292963,
+        0.039
+      ],
+      "drawer_end_mm": 65.11725665918517,
+      "handle_contact": true
+    },
+    {
+      "episode": 198,
+      "directory": "episode-198",
+      "seed": 125198,
+      "frames": 318,
+      "rgb_frames": 106,
+      "success": true,
+      "drawer_start_mm": 2.3272543748742853,
+      "handle_start_m": [
+        0.24455232200474458,
+        -0.043237050743253916,
+        0.039
+      ],
+      "drawer_end_mm": 65.38154587015553,
+      "handle_contact": true
+    },
+    {
+      "episode": 199,
+      "directory": "episode-199",
+      "seed": 125199,
+      "frames": 305,
+      "rgb_frames": 102,
+      "success": true,
+      "drawer_start_mm": 5.385821821895903,
+      "handle_start_m": [
+        0.22621057422153257,
+        -0.03939878807625852,
+        0.039
+      ],
+      "drawer_end_mm": 65.08003089497646,
+      "handle_contact": true
+    }
+  ],
+  "train": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    90,
+    91,
+    92,
+    93,
+    94,
+    95,
+    96,
+    97,
+    98,
+    99,
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109,
+    110,
+    111,
+    112,
+    113,
+    114,
+    115,
+    116,
+    117,
+    118,
+    119,
+    120,
+    121,
+    122,
+    123,
+    124,
+    125,
+    126,
+    127,
+    128,
+    129,
+    130,
+    131,
+    132,
+    133,
+    134,
+    135,
+    136,
+    137,
+    138,
+    139,
+    140,
+    141,
+    142,
+    143,
+    144,
+    145,
+    147,
+    148,
+    149,
+    150,
+    151,
+    152,
+    153,
+    154,
+    155,
+    156,
+    157,
+    158,
+    159,
+    160,
+    161,
+    162,
+    164,
+    165,
+    166,
+    167,
+    168,
+    169,
+    170,
+    171,
+    172,
+    173,
+    174,
+    175,
+    176,
+    177,
+    178,
+    179,
+    180,
+    181,
+    184,
+    185,
+    186,
+    187,
+    188,
+    189,
+    190,
+    191,
+    192,
+    193,
+    194,
+    195,
+    196,
+    197,
+    198,
+    199
+  ],
+  "validation": [
+    21,
+    46,
+    47,
+    48,
+    66,
+    89,
+    146,
+    163,
+    182,
+    183
+  ],
+  "split_seed": 20261124
+}

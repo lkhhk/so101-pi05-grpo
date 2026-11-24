@@ -1,0 +1,41 @@
+{
+  "schema": "mujoco-flow-b8-v1",
+  "layout": "fixed 8 lanes, terminal lanes masked",
+  "provenance": {
+    "base": "models/ira-base",
+    "adapter": "runs/b8-online-from1200-plus1200-20261122/rounds/round-029/checkpoints/002360",
+    "base_sha256": "7f8056e0cebbd8767a93c0f51bf5e20751baad455cf4b9965c07efca2df0fdef",
+    "adapter_sha256": "47d01dcaebd1aea1dc2b0e810c816fc279b611fc6a13032c22388348269ede20",
+    "policy_version": "de8d61ca6c5093f67ac0c7a4ee0609f62ac9cd572f6bdaeaebc5b010d1d71eb9",
+    "base_size_bytes": 16573760064,
+    "strict_base_load": true,
+    "exact_adapter_values": true,
+    "renamed_base_keys": 0,
+    "device": "cuda",
+    "trainable_parameters": 1287168
+  },
+  "pipeline_id": "34e870ca7ad7d77aa70ce87cd50517e269826c896cce9ee93f625a579b73780c",
+  "sampler": {
+    "num_steps": 10,
+    "noise_level": 0.5,
+    "action_dim": 6,
+    "action_chunk": 50,
+    "clip_low": 0.2,
+    "clip_high": 0.28
+  },
+  "groups": 90,
+  "steps": 40,
+  "save_every": 40,
+  "lr": 1e-06,
+  "streams": 3,
+  "groups_per_update": 4,
+  "scene_seed_offset": 90000,
+  "policy_seed_offset": 9000000,
+  "start_step": 2360,
+  "validation_groups": 10,
+  "validation_manifest": "runs/b8-online-from1200-plus1200-20261122/validation-scenes.json",
+  "validation_manifest_sha256": "b2c7bb935b269a86a60a83456786def47c9cb013cebed845bb33c9ecc55f5a6b",
+  "starting_optimizer_sha256": "d9d545674d38a36d14f7e7b34e160579c846fa59c77cd0e842aacbd85aee43a6",
+  "calibration_sha256": "5e88703a90b5520f424d9ff9d90303791552c773e08c47dd3fcf0042cbf9410b",
+  "environment_sha256": "182999988bfd46bab32e4cd564f2ce87177bfb749f26d5a5ac2e237aae858386"
+}

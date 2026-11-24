@@ -1,0 +1,58 @@
+{
+  "selected": {
+    "step": 40000,
+    "validation_loss": 0.019841451545168334,
+    "path": "runs/drawer-002520-sft40k-grpo30-20261124/sft/checkpoints/040000",
+    "adapter_sha256": "5ca34e970a38180d884e8cf83ba97ab879336bd2fd27fffacfae96fcfc91260c"
+  },
+  "scores": [
+    {
+      "step": 5000,
+      "validation_loss": 0.052211103844456375,
+      "path": "runs/drawer-002520-sft40k-grpo30-20261124/sft/checkpoints/005000",
+      "adapter_sha256": "e13922fbc7dd73676717428b5d7dd423a42b1ad2a9e83f057ff5a9b80d8bb672"
+    },
+    {
+      "step": 10000,
+      "validation_loss": 0.03967395308233487,
+      "path": "runs/drawer-002520-sft40k-grpo30-20261124/sft/checkpoints/010000",
+      "adapter_sha256": "1dd5cdfb4cb5af0bb84fb3aa5bdccd54751e18600448d2e81bd31667ae003640"
+    },
+    {
+      "step": 15000,
+      "validation_loss": 0.03240217958033706,
+      "path": "runs/drawer-002520-sft40k-grpo30-20261124/sft/checkpoints/015000",
+      "adapter_sha256": "c775bc6d653d0fa9880d28a1a0177d23909efae422fd443eace8deea3294f917"
+    },
+    {
+      "step": 20000,
+      "validation_loss": 0.02847093579087717,
+      "path": "runs/drawer-002520-sft40k-grpo30-20261124/sft/checkpoints/020000",
+      "adapter_sha256": "0c9d7912616bb8e21cc2a23da3f7ab31350855b3f4028952301b9409f289ffdb"
+    },
+    {
+      "step": 25000,
+      "validation_loss": 0.02499241453188006,
+      "path": "runs/drawer-002520-sft40k-grpo30-20261124/sft/checkpoints/025000",
+      "adapter_sha256": "27d0ae8d9da9f6cd308bf5d8e51d67eec9e6e0decf906fe157930e4984d9eb0b"
+    },
+    {
+      "step": 30000,
+      "validation_loss": 0.022721430849439155,
+      "path": "runs/drawer-002520-sft40k-grpo30-20261124/sft/checkpoints/030000",
+      "adapter_sha256": "d2ee65450c6e0f402e195d32fa8fe7eac4d891a103c336dc351aeaa2a303b39a"
+    },
+    {
+      "step": 35000,
+      "validation_loss": 0.021076710242778064,
+      "path": "runs/drawer-002520-sft40k-grpo30-20261124/sft/checkpoints/035000",
+      "adapter_sha256": "ccb10814c6e447f13a60a85a6fc34a86b53b7d76513a477a84632ec7c0726c94"
+    },
+    {
+      "step": 40000,
+      "validation_loss": 0.019841451545168334,
+      "path": "runs/drawer-002520-sft40k-grpo30-20261124/sft/checkpoints/040000",
+      "adapter_sha256": "5ca34e970a38180d884e8cf83ba97ab879336bd2fd27fffacfae96fcfc91260c"
+    }
+  ]
+}

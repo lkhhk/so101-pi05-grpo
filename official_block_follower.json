@@ -1,0 +1,22 @@
+{
+  "shoulder_pan": {
+    "drive_mode": 0
+  },
+  "shoulder_lift": {
+    "drive_mode": 0
+  },
+  "elbow_flex": {
+    "drive_mode": 0
+  },
+  "wrist_flex": {
+    "drive_mode": 0
+  },
+  "wrist_roll": {
+    "drive_mode": 0
+  },
+  "gripper": {
+    "drive_mode": 0,
+    "range_min": 0,
+    "range_max": 1491
+  }
+}

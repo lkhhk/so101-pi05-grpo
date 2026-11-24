@@ -1,0 +1,12 @@
+/models/
+/runs/
+/menagerie/
+/.venv/
+__pycache__/
+*.pyc
+*.log
+*.pt
+*.safetensors
+*.npz
+*.zip
+.env

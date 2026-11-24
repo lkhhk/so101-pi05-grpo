@@ -1,0 +1,8 @@
+{
+  "repository": "https://github.com/RLinf/RLinf",
+  "commit": "6a3392c7bccdf2df720965bea826dce8d7ecd354",
+  "files": {
+    "LICENSE": "a48a5e0eb7baa16390fb777b366c294f9840e74d2e6795502288f27cd5135834",
+    "rlinf/models/embodiment/openpi/sampling/rl_sampler.py": "e8ec916c5bcebab3bc2ecd6d043c5e859372c71f622c88a74b5e067a99c88086"
+  }
+}

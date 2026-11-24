@@ -4,8 +4,8 @@ Two MuJoCo experiments on a single RTX 4090. The arm uses a front view, a wrist 
 
 | Task | Checkpoint | Same-seed ODE results |
 |---|---|---|
-| Open a drawer | GRPO 000800 | 22/30 vs 17/30 for SFT 040000 |
-| Put a block in a box | GRPO 002400 | 51/100 vs 49/100 for B8 000900 and 45/100 for SFT 030000 |
+| Open a drawer | GRPO 000800 | 66/90 vs 51/90 for SFT 040000 |
+| Put a block in a box | GRPO 002400 | 61/100 vs 45/100 for SFT 030000 |
 
 These results describe the MuJoCo scenes and evaluation seeds in this repository. The drawer comparison has 6 GRPO-only successes, 1 SFT-only success and an exact paired p-value of 0.125.
 

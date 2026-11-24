@@ -7,7 +7,6 @@ Two MuJoCo experiments on a single RTX 4090. The arm uses a front view, a wrist 
 | Open a drawer | GRPO 000800 | 66/90 vs 51/90 for SFT 040000 |
 | Put a block in a box | GRPO 002400 | 61/100 vs 45/100 for SFT 030000 |
 
-These results describe the MuJoCo scenes and evaluation seeds in this repository. The drawer comparison has 6 GRPO-only successes, 1 SFT-only success and an exact paired p-value of 0.125.
 
 - [Download the blockbox 002400 LoRA and processors](https://github.com/lkhhk/so101-pi05-grpo/releases/tag/so101-grpo-sim-20261124).
 - [Drawer per-episode results](results/drawer/) and [blockbox per-episode results](results/blockbox/).
